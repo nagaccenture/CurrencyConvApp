@@ -3,6 +3,7 @@ ___________________________________________________________
 spring MVC,Spring Boot,JPA
 Maven,Junit
 Database:H2(in-memory DB )
+JDK1.8
 
 
 used below Currency API  to get the currency conversion
