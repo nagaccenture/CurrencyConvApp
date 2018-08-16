@@ -17,7 +17,11 @@ import com.myapp.persistence.CurrencyExchangeEntity;
 import com.myapp.persistence.UserEntity;
 import com.myapp.service.CurrencyService;
 import com.myapp.service.impl.CurrencyValidator;
-
+/**
+ * currency converter controller 
+ * 
+ 
+ */
 @Controller
 public class CurrencyController {
 

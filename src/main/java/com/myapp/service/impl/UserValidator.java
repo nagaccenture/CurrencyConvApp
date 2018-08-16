@@ -10,7 +10,11 @@ import org.springframework.validation.Validator;
 
 import com.myapp.persistence.UserEntity;
 import com.myapp.service.UserService;
-
+/**
+ * Validator for user.
+ * 
+ 
+ */
 
 @Component
 public class UserValidator implements Validator {

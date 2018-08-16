@@ -4,7 +4,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.springframework.stereotype.Component;
-
+/**
+ * Validator for password.
+ * 
+ 
+ */
 @Component("passwordvalidator")
 public class PasswordValidator {
 	private Pattern pattern;

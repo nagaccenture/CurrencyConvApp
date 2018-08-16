@@ -10,7 +10,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-
+/**
+ * CurrencyExchangeEntity to stare the currency data in to DB 
+ * 
+ 
+ */
 @Entity
 @Table(name = "CURRENCY_EXCHANGE_HISTORY")
 

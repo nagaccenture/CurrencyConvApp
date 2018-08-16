@@ -3,6 +3,11 @@ package com.myapp.bean;
 import java.math.BigDecimal;
 import java.util.Map;
 
+/**
+ * Currency response bean class.
+ * 
+ 
+ */
 public class CurrenyResponse {
 	private String success;
 	private String timestamp;

@@ -19,7 +19,11 @@ import com.myapp.persistence.CurrencyExchangeEntity;
 import com.myapp.persistence.CurrencyExchangeHistoryRepository;
 import com.myapp.persistence.UserEntity;
 import com.myapp.service.CurrencyService;
-
+/**
+ * CurrencyServiceImpl to call the repository methods and get teh currency from API 
+ * 
+ 
+ */
 
 @Service
 public class CurrencyServiceImpl implements CurrencyService {

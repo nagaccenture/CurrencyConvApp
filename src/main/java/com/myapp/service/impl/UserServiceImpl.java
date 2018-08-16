@@ -6,7 +6,11 @@ import org.springframework.stereotype.Service;
 import com.myapp.persistence.UserEntity;
 import com.myapp.persistence.UserRepository;
 import com.myapp.service.UserService;
-
+/**
+ * UserServiceImpl  to get the user and save the user ,calls repository methods .
+ * 
+ 
+ */
 
 @Service
 public class UserServiceImpl implements UserService {

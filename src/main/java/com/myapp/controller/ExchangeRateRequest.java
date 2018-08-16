@@ -4,7 +4,11 @@ import java.util.Date;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-
+/**
+ * ExchangeRateRequest bean 
+ * 
+ 
+ */
 public class ExchangeRateRequest {
 
     public String getFrom() {

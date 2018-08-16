@@ -8,7 +8,11 @@ import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 import com.myapp.controller.ExchangeRateRequest;
-
+/**
+ * Validator for Currency.
+ * 
+ 
+ */
 @Component("currencyvalidator") 
 public class CurrencyValidator implements Validator{
 

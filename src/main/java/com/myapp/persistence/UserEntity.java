@@ -10,7 +10,11 @@ import javax.persistence.Transient;
 import javax.persistence.UniqueConstraint;
 
 import org.springframework.format.annotation.DateTimeFormat;
-
+/**
+ * UserEntity to save the user 
+ * 
+ 
+ */
 
 @Entity
 @Table(name = "USER", uniqueConstraints = @UniqueConstraint(columnNames = {"username"}))

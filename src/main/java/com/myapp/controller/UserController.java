@@ -13,7 +13,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.myapp.persistence.UserEntity;
 import com.myapp.service.UserService;
 import com.myapp.service.impl.UserValidator;
-
+/**
+ * user controller to create user and login 
+ * 
+ 
+ */
 @Controller
 public class UserController {
 
